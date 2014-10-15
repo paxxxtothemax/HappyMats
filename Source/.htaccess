@@ -1,0 +1,4 @@
+RewriteEngine on
+Rewritebase /HappyMats/
+RewriteCond $1 !^(index\.php|images|css|fonts|img|js|less|ajax|robots\.txt)
+RewriteRule ^(.*)$ index.php?/$1 [L] 
